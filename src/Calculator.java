@@ -11,8 +11,8 @@ public class Calculator {
 		System.out.println("3. Multiply");
 		System.out.println("4. Divide");
 		
-		System.out.print("Enter Choice (1/2/3/4) : ");
-		Scanner input = new Scanner(System.in);
+		System.out.print("Enter Choice (1/2/3/4) : ")
+		Scanner input = new Scanner(System.in)
 		int choice = input.nextInt();
 		//choice = calc.validateChoice(choice);
 		System.out.print("Enter First Number: ");
